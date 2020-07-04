@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_ENHO" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TOOL>HOOK_IMPL</TOOL>
+   <SHORTTEXT>Araç giderleştirme için fiyat düzenlemesi</SHORTTEXT>
+   <ORIGINAL_OBJECT>
+    <PGMID>R3TR</PGMID>
+    <ORG_OBJ_TYPE>FUGR</ORG_OBJ_TYPE>
+    <ORG_OBJ_NAME>MR1M</ORG_OBJ_NAME>
+    <ORG_MAIN_TYPE>FUGR</ORG_MAIN_TYPE>
+    <ORG_MAIN_NAME>MR1M</ORG_MAIN_NAME>
+    <PROGRAMNAME>SAPLMR1M</PROGRAMNAME>
+   </ORIGINAL_OBJECT>
+   <ENHANCEMENTS>
+    <ENH_HOOK_IMPL>
+     <SPOTNAME>ES_SAPLMR1M</SPOTNAME>
+     <PROGRAMNAME>SAPLMR1M</PROGRAMNAME>
+     <ENHMODE>D</ENHMODE>
+     <FULL_NAME>\PR:SAPLMR1M\EX:CREATE_ITEM_LIST_INPUT_01\EI</FULL_NAME>
+     <SOURCE>
+      <item>*  CHECK NOT reference_request IS INITIAL.</item>
+      <item>***********************************************************************</item>
+      <item>**{   -&gt;&gt;&gt; Inserted by Prodea Ozan Şahin - 27.04.2020 10:24:22</item>
+      <item>*   &quot; yarım kaldı, devam edilecek.</item>
+      <item>*  DATA: l_ydrseg      TYPE mmcr_drseg.</item>
+      <item>*  DATA: l_ydrseg_sas  TYPE mmcr_drseg.</item>
+      <item>*  DATA: ls_sas        TYPE mmcr_drseg.</item>
+      <item>*  DATA: lt_sas        TYPE TABLE OF mmcr_drseg.</item>
+      <item>*  DATA: ls_arac       TYPE zpro_arac_gid_01.</item>
+      <item>*  DATA: lt_arac       TYPE TABLE OF zpro_arac_gid_01.</item>
+      <item>*  DATA: lv_tutar      TYPE bseg-wrbtr.</item>
+      <item>*</item>
+      <item>*  CLEAR: lt_arac, ls_arac,</item>
+      <item>*         lt_sas, ls_sas, lv_tutar.</item>
+      <item>*</item>
+      <item>*   LOOP AT ydrseg INTO ls_sas WHERE EBELN is NOT INITIAL</item>
+      <item>*                                AND knttp EQ &apos;Z&apos;.</item>
+      <item>*     APPEND ls_sas to lt_sas.</item>
+      <item>*   ENDLOOP.</item>
+      <item>*</item>
+      <item>*  IF lt_sas IS NOT INITIAL.</item>
+      <item>*</item>
+      <item>*  SELECT * FROM zpro_arac_gid_01</item>
+      <item>*   INTO TABLE lt_arac</item>
+      <item>*   FOR ALL ENTRIES IN lt_sas</item>
+      <item>*   WHERE bukrs = lt_sas-bukrs</item>
+      <item>*     AND ana_hesap = lt_sas-saknr</item>
+      <item>*     AND bas_tarih &lt;= lt_sas-budat</item>
+      <item>*     AND bit_tarih =&gt; lt_sas-budat.</item>
+      <item>*</item>
+      <item>*   SORT lt_arac BY ana_hesap.</item>
+      <item>*</item>
+      <item>*   IF lt_arac IS NOT INITIAL.</item>
+      <item>*   &quot;ana hesap kalemlerini güncelle</item>
+      <item>*   LOOP AT ydrseg INTO l_ydrseg .</item>
+      <item>*     CLEAR:  lv_tutar, l_ydrseg_sas, ls_arac.</item>
+      <item>*</item>
+      <item>*     &quot; kayıt varsa bu satır ana hesap sekmesinde</item>
+      <item>*     READ TABLE lt_arac TRANSPORTING NO FIELDS</item>
+      <item>*                        WITH KEY kkeg_hesap = l_ydrseg-saknr.</item>
+      <item>*     IF sy-subrc = 0.</item>
+      <item>*</item>
+      <item>*        &quot; ana hesap kaleminin bağlı olduğu sas kalemi</item>
+      <item>*        READ TABLE ydrseg INTO l_ydrseg_sas</item>
+      <item>*                      WITH KEY aufnr = l_ydrseg-aufnr.</item>
+      <item>*        IF sy-subrc = 0 AND l_ydrseg_sas-saknr &lt;&gt; l_ydrseg-saknr.</item>
+      <item>*</item>
+      <item>*         &quot;sas&apos;in  kısıtları</item>
+      <item>*         READ TABLE lt_arac INTO ls_arac</item>
+      <item>*                        WITH KEY ana_hesap = l_ydrseg_sas-saknr</item>
+      <item>*                   BINARY SEARCH.</item>
+      <item>*</item>
+      <item>***      ana hesap değerlerini güncelle</item>
+      <item>*          lv_tutar = l_ydrseg_sas-wrbtr.</item>
+      <item>*          &quot;tutar kontrolünde açık var, ls_arac tutar miktarı tekrar girilince</item>
+      <item>*          &quot; ana hesap miktarı güncelleneyecek</item>
+      <item>*          IF ls_arac-kisit_turu = &apos;1&apos; AND l_ydrseg_sas-wrbtr &lt;&gt; ls_arac-tutar.</item>
+      <item>*            IF l_ydrseg_sas-wrbtr &lt; ls_arac-tutar.</item>
+      <item>*              &quot;elle girilen tutar araç tutardan&apos;den küçükse</item>
+      <item>*              CLEAR: l_ydrseg-dmbtr, l_ydrseg-wrbtr.</item>
+      <item>*            ELSEIF lv_tutar &gt; ls_arac-tutar.</item>
+      <item>*              &quot;</item>
+      <item>*              l_ydrseg-wrbtr = lv_tutar - ls_arac-tutar.</item>
+      <item>*              l_ydrseg-dmbtr = l_ydrseg-wrbtr.</item>
+      <item>*            ELSE.</item>
+      <item>*              CLEAR: l_ydrseg-dmbtr, l_ydrseg-wrbtr.</item>
+      <item>*            ENDIF.</item>
+      <item>*</item>
+      <item>*          ELSEIF ls_arac-kisit_turu = &apos;2&apos;.</item>
+      <item>*            lv_tutar = ( lv_tutar * 100 ) / ls_arac-yuzde  .</item>
+      <item>*</item>
+      <item>*           l_ydrseg-wrbtr = lv_tutar * ( ( 100 - ls_arac-yuzde ) / 100 ).</item>
+      <item>*           l_ydrseg-dmbtr = l_ydrseg-wrbtr.</item>
+      <item>*          ENDIF.</item>
+      <item>*</item>
+      <item>*        ENDIF.</item>
+      <item>*</item>
+      <item>*        MODIFY ydrseg FROM l_ydrseg TRANSPORTING wrbtr dmbtr.</item>
+      <item>*     ENDIF.</item>
+      <item>*</item>
+      <item>*   ENDLOOP.</item>
+      <item>*</item>
+      <item>*    &quot;&quot; Sas kalemi tutarlarını güncellemek için</item>
+      <item>*    LOOP AT ydrseg INTO l_ydrseg .</item>
+      <item>*      CLEAR ls_arac.</item>
+      <item>*      READ TABLE lt_arac INTO ls_arac</item>
+      <item>*                         WITH KEY ana_hesap = l_ydrseg-saknr</item>
+      <item>*                         BINARY SEARCH.</item>
+      <item>*      IF sy-subrc = 0 and ls_arac-kisit_turu = &apos;1&apos;.</item>
+      <item>*        IF l_ydrseg-ebeln is NOT INITIAL AND  l_ydrseg-knttp EQ &apos;Z&apos;.</item>
+      <item>*          IF l_ydrseg-wrbtr &gt; ls_arac-tutar.</item>
+      <item>*            l_ydrseg-wrbtr = ls_arac-tutar.</item>
+      <item>*            l_ydrseg-dmbtr = ls_arac-tutar.</item>
+      <item>*</item>
+      <item>*            MODIFY ydrseg FROM l_ydrseg TRANSPORTING wrbtr dmbtr.</item>
+      <item>*          ENDIF.</item>
+      <item>*        ENDIF.</item>
+      <item>*      ENDIF.</item>
+      <item>*    ENDLOOP.</item>
+      <item>*   ENDIF.</item>
+      <item>*</item>
+      <item>*  ENDIF.</item>
+      <item/>
+      <item>*}     &lt;&lt;&lt;- End of   Inserted - 27.04.2020 10:24:22</item>
+      <item/>
+     </SOURCE>
+    </ENH_HOOK_IMPL>
+   </ENHANCEMENTS>
+   <SPACES>
+    <item>
+     <FULL_NAME>\PR:SAPLMR1M\EX:CREATE_ITEM_LIST_INPUT_01\EI</FULL_NAME>
+     <SPACES>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+     </SPACES>
+    </item>
+   </SPACES>
+  </asx:values>
+ </asx:abap>
+</abapGit>

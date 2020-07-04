@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SPRX" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROXY_HEADER>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZYKCANCEL_SHIPMENT</OBJ_NAME>
+     <OBJECT_M>TABL</OBJECT_M>
+     <OBJ_NAME_M>ZYKCANCEL_SHIPMENT</OBJ_NAME_M>
+     <HASH_ID>54D1E1B0F2F8E081115619402372B8B9B261B1AC</HASH_ID>
+     <ID>&lt;type&gt; cancelShipment http://yurticikargo.com.tr/ShippingOrderDispatcherServices http://yurticikargo.com.tr/ShippingOrderDispatcherServices</ID>
+     <IFR_GLOBAL>X</IFR_GLOBAL>
+     <IFR_TYPE>type</IFR_TYPE>
+     <IFR_NAME>cancelShipment</IFR_NAME>
+     <IFR_NSPCE>http://yurticikargo.com.tr/ShippingOrderDispatcherServices</IFR_NSPCE>
+     <IFR_GNSPCE>http://yurticikargo.com.tr/ShippingOrderDispatcherServices</IFR_GNSPCE>
+     <GEN_VERS>0005</GEN_VERS>
+     <PREFIX>ZYK</PREFIX>
+     <CATEGORY>ifmtypedef</CATEGORY>
+     <GEN_APPL>WEBSERVICES</GEN_APPL>
+     <X-ML_NSPCE>http://yurticikargo.com.tr/ShippingOrderDispatcherServices</X-ML_NSPCE>
+     <X-ML_NAME>cancelShipment</X-ML_NAME>
+    </item>
+   </PROXY_HEADER>
+   <PROXY_DATA>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZYKCANCEL_SHIPMENT</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>CARGO_KEYS</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>CARGO_KEYS</OBJ_NAME2>
+     <OBJECT_R>TTYP</OBJECT_R>
+     <OBJ_NAME_R>ZYKSTRING_TAB</OBJ_NAME_R>
+     <ID>&lt;element&gt; cargoKeys &lt;type&gt; cancelShipment http://yurticikargo.com.tr/ShippingOrderDispatcherServices http://yurticikargo.com.tr/ShippingOrderDispatcherServices</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>cargoKeys</IFR_NAME>
+     <IFR_TAGTYP>L</IFR_TAGTYP>
+     <IFR_MAXOCC>65535</IFR_MAXOCC>
+     <IFR_OPTNL>X</IFR_OPTNL>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>CARGO_KEYS</R3_NAME>
+     <R3_SEQNUM>000004</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZYKCANCEL_SHIPMENT</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>USER_LANGUAGE</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>USER_LANGUAGE</OBJ_NAME2>
+     <ID>&lt;element&gt; userLanguage &lt;type&gt; cancelShipment http://yurticikargo.com.tr/ShippingOrderDispatcherServices http://yurticikargo.com.tr/ShippingOrderDispatcherServices</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>userLanguage</IFR_NAME>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_OPTNL>X</IFR_OPTNL>
+     <IFR_XSDTYP>string</IFR_XSDTYP>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>USER_LANGUAGE</R3_NAME>
+     <R3_DATATYP>STRG</R3_DATATYP>
+     <R3_SEQNUM>000003</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZYKCANCEL_SHIPMENT</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>WS_PASSWORD</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>WS_PASSWORD</OBJ_NAME2>
+     <ID>&lt;element&gt; wsPassword &lt;type&gt; cancelShipment http://yurticikargo.com.tr/ShippingOrderDispatcherServices http://yurticikargo.com.tr/ShippingOrderDispatcherServices</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>wsPassword</IFR_NAME>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_OPTNL>X</IFR_OPTNL>
+     <IFR_XSDTYP>string</IFR_XSDTYP>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>WS_PASSWORD</R3_NAME>
+     <R3_DATATYP>STRG</R3_DATATYP>
+     <R3_SEQNUM>000002</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZYKCANCEL_SHIPMENT</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>WS_USER_NAME</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>WS_USER_NAME</OBJ_NAME2>
+     <ID>&lt;element&gt; wsUserName &lt;type&gt; cancelShipment http://yurticikargo.com.tr/ShippingOrderDispatcherServices http://yurticikargo.com.tr/ShippingOrderDispatcherServices</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>wsUserName</IFR_NAME>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_OPTNL>X</IFR_OPTNL>
+     <IFR_XSDTYP>string</IFR_XSDTYP>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>WS_USER_NAME</R3_NAME>
+     <R3_DATATYP>STRG</R3_DATATYP>
+     <R3_SEQNUM>000001</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZYKCANCEL_SHIPMENT</OBJ_NAME>
+     <OBJECT1>TABL</OBJECT1>
+     <OBJ_NAME1>ZYKCANCEL_SHIPMENT</OBJ_NAME1>
+     <OBJECT2>TABL</OBJECT2>
+     <OBJ_NAME2>ZYKCANCEL_SHIPMENT</OBJ_NAME2>
+     <ID>&lt;type&gt; cancelShipment http://yurticikargo.com.tr/ShippingOrderDispatcherServices http://yurticikargo.com.tr/ShippingOrderDispatcherServices</ID>
+     <IFR_TYPE>type</IFR_TYPE>
+     <IFR_NAME>cancelShipment</IFR_NAME>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>TABL</R3_TYPE>
+     <R3_NAME>ZYKCANCEL_SHIPMENT</R3_NAME>
+     <R3_TEXT>Proxy Structure (Generated)</R3_TEXT>
+     <CATEGORY>ifmtypedef</CATEGORY>
+    </item>
+   </PROXY_DATA>
+  </asx:values>
+ </asx:abap>
+</abapGit>

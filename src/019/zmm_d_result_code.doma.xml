@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DOMA" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD01V>
+    <DOMNAME>ZMM_D_RESULT_CODE</DOMNAME>
+    <DATATYPE>CHAR</DATATYPE>
+    <LENG>000010</LENG>
+    <OUTPUTLEN>000010</OUTPUTLEN>
+    <VALEXI>X</VALEXI>
+   </DD01V>
+   <DD07V_TAB>
+    <DD07V>
+     <DOMNAME>ZMM_D_RESULT_CODE</DOMNAME>
+     <VALPOS>0001</VALPOS>
+     <DOMVALUE_L>936</DOMVALUE_L>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZMM_D_RESULT_CODE</DOMNAME>
+     <VALPOS>0002</VALPOS>
+     <DOMVALUE_L>0</DOMVALUE_L>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZMM_D_RESULT_CODE</DOMNAME>
+     <VALPOS>0003</VALPOS>
+     <DOMVALUE_L>80859</DOMVALUE_L>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZMM_D_RESULT_CODE</DOMNAME>
+     <VALPOS>0004</VALPOS>
+     <DOMVALUE_L>82500</DOMVALUE_L>
+    </DD07V>
+   </DD07V_TAB>
+   <I18N_LANGS>
+    <LANGU>T</LANGU>
+   </I18N_LANGS>
+   <DD01_TEXTS>
+    <item>
+     <DDLANGUAGE>T</DDLANGUAGE>
+     <DDTEXT>Sonuç Kodu</DDTEXT>
+    </item>
+   </DD01_TEXTS>
+   <DD07_TEXTS>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>T</DDLANGUAGE>
+     <DOMVALUE_L>936</DOMVALUE_L>
+     <DDTEXT>Yurtiçi Kargo Bilgi sistemleri ile irtibat kurunuz.</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>T</DDLANGUAGE>
+     <DOMVALUE_L>0</DOMVALUE_L>
+     <DDTEXT>İşleminiz Başarı ile tamamlanmıştır.</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>T</DDLANGUAGE>
+     <DOMVALUE_L>80859</DOMVALUE_L>
+     <DDTEXT>Kargo Anahtarı bulunamadı.</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>T</DDLANGUAGE>
+     <DOMVALUE_L>82500</DOMVALUE_L>
+     <DDTEXT>Kargo Anahtarı belirtilen uzunluktan fazla.</DDTEXT>
+    </item>
+   </DD07_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

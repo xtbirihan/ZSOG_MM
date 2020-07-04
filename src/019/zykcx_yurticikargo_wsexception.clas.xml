@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZYKCX_YURTICIKARGO_WSEXCEPTION</CLSNAME>
+    <LANGU>T</LANGU>
+    <DESCRIPT>Proxy Class (Generated)</DESCRIPT>
+    <CATEGORY>40</CATEGORY>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+    <RSTAT>P</RSTAT>
+    <CLSPROXY>X</CLSPROXY>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZYKCX_YURTICIKARGO_WSEXCEPTION</CLSNAME>
+     <CMPNAME>AUTOMATIC_RETRY</CMPNAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>&apos;X&apos;: automatically retry on error (only inbound)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZYKCX_YURTICIKARGO_WSEXCEPTION</CLSNAME>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZYKCX_YURTICIKARGO_WSEXCEPTION</CLSNAME>
+     <CMPNAME>NO_RETRY</CMPNAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>&apos;X&apos;: retry does not make sense (only inbound)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZYKCX_YURTICIKARGO_WSEXCEPTION</CLSNAME>
+     <CMPNAME>WF_TRIGGERED</CMPNAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>&apos;X&apos;: workflow has been triggered (only inbound)</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

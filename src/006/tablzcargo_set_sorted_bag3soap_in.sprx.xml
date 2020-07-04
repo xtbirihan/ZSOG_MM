@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SPRX" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROXY_HEADER>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZCARGO_SET_SORTED_BAG3SOAP_IN</OBJ_NAME>
+     <OBJECT_M>TABL</OBJECT_M>
+     <OBJ_NAME_M>ZCARGO_SET_SORTED_BAG3SOAP_IN1</OBJ_NAME_M>
+     <HASH_ID>BFA6B9CF230E1272E0A2D80217433C6D97C682E9</HASH_ID>
+     <ID>&lt;type&gt; Barcodes &lt;element&gt; {http://tempuri.org/}Barcodes &lt;type&gt; SetSortedBag3 &lt;element&gt; SetSortedBag3 http://tempuri.org/ http://tempuri.org/</ID>
+     <IFR_TYPE>type</IFR_TYPE>
+     <IFR_NAME>Barcodes</IFR_NAME>
+     <IFR_NSPCE>http://tempuri.org/</IFR_NSPCE>
+     <IFR_GNSPCE>http://tempuri.org/</IFR_GNSPCE>
+     <GEN_VERS>0005</GEN_VERS>
+     <PREFIX>ZCARGO_</PREFIX>
+     <CATEGORY>ifmtypedef</CATEGORY>
+     <GEN_APPL>WEBSERVICES</GEN_APPL>
+     <X-ML_NSPCE>http://tempuri.org/</X-ML_NSPCE>
+     <X-ML_NAME>Barcodes</X-ML_NAME>
+    </item>
+   </PROXY_HEADER>
+   <PROXY_DATA>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZCARGO_SET_SORTED_BAG3SOAP_IN</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>ANY</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>ANY</OBJ_NAME2>
+     <ID>&lt;any&gt; any &lt;type&gt; Barcodes &lt;element&gt; {http://tempuri.org/}Barcodes &lt;type&gt; SetSortedBag3 &lt;element&gt; SetSortedBag3 http://tempuri.org/ http://tempuri.org/</ID>
+     <IFR_TYPE>any</IFR_TYPE>
+     <IFR_NAME>any</IFR_NAME>
+     <IFR_MINOCC>1</IFR_MINOCC>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_XSDTYP>any</IFR_XSDTYP>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>ANY</R3_NAME>
+     <R3_DTREF>XSDANY</R3_DTREF>
+     <R3_SEQNUM>000002</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZCARGO_SET_SORTED_BAG3SOAP_IN</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>SCHEMA</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>SCHEMA</OBJ_NAME2>
+     <ID>&lt;element&gt; {http://www.w3.org/2001/XMLSchema}schema &lt;type&gt; Barcodes &lt;element&gt; {http://tempuri.org/}Barcodes &lt;type&gt; SetSortedBag3 &lt;element&gt; SetSortedBag3 http://tempuri.org/ http://tempuri.org/</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>schema</IFR_NAME>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MINOCC>1</IFR_MINOCC>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_QUALIF>X</IFR_QUALIF>
+     <IFR_XSDTYP>schema</IFR_XSDTYP>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>SCHEMA</R3_NAME>
+     <R3_DATATYP>STRG</R3_DATATYP>
+     <R3_SEQNUM>000001</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZCARGO_SET_SORTED_BAG3SOAP_IN</OBJ_NAME>
+     <OBJECT1>TABL</OBJECT1>
+     <OBJ_NAME1>ZCARGO_SET_SORTED_BAG3SOAP_IN</OBJ_NAME1>
+     <OBJECT2>TABL</OBJECT2>
+     <OBJ_NAME2>ZCARGO_SET_SORTED_BAG3SOAP_IN</OBJ_NAME2>
+     <ID>&lt;type&gt; Barcodes &lt;element&gt; {http://tempuri.org/}Barcodes &lt;type&gt; SetSortedBag3 &lt;element&gt; SetSortedBag3 http://tempuri.org/ http://tempuri.org/</ID>
+     <IFR_TYPE>type</IFR_TYPE>
+     <IFR_NAME>Barcodes</IFR_NAME>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>TABL</R3_TYPE>
+     <R3_NAME>ZCARGO_SET_SORTED_BAG3SOAP_IN</R3_NAME>
+     <R3_TEXT>Proxy Structure (Generated)</R3_TEXT>
+     <CATEGORY>ifmtypedef</CATEGORY>
+    </item>
+   </PROXY_DATA>
+  </asx:values>
+ </asx:abap>
+</abapGit>

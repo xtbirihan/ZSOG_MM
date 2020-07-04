@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZMM_E_CARGOKEY</ROLLNAME>
+    <DOMNAME>CHAR30</DOMNAME>
+    <HEADLEN>14</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>14</SCRLEN2>
+    <SCRLEN3>14</SCRLEN3>
+    <DTELMASTER>T</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>T</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>T</DDLANGUAGE>
+     <DDTEXT>Kargo Anahtarı</DDTEXT>
+     <REPTEXT>Kargo Anahtarı</REPTEXT>
+     <SCRTEXT_S>KargoAnhtr</SCRTEXT_S>
+     <SCRTEXT_M>Kargo Anahtarı</SCRTEXT_M>
+     <SCRTEXT_L>Kargo Anahtarı</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

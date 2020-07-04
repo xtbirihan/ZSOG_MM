@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SPRX" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROXY_HEADER>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZCGQRY_IARAS_CARGO_INTEGRATIO5</OBJ_NAME>
+     <OBJECT_M>TABL</OBJECT_M>
+     <OBJ_NAME_M>ZCGQRY_IARAS_CARGO_INTEGRATIO5</OBJ_NAME_M>
+     <HASH_ID>E156A6785487864782B96C1961D18247D38CCD5F</HASH_ID>
+     <ID>&lt;message&gt; IArasCargoIntegrationService_GetQueryJSON_OutputMessage http://tempuri.org/ http://tempuri.org/</ID>
+     <IFR_GLOBAL>X</IFR_GLOBAL>
+     <IFR_TYPE>message</IFR_TYPE>
+     <IFR_NAME>IArasCargoIntegrationService_GetQueryJSON_OutputMessage</IFR_NAME>
+     <IFR_NSPCE>http://tempuri.org/</IFR_NSPCE>
+     <IFR_GNSPCE>http://tempuri.org/</IFR_GNSPCE>
+     <GEN_VERS>0006</GEN_VERS>
+     <PREFIX>ZCGQRY_</PREFIX>
+     <CATEGORY>ifmmessage</CATEGORY>
+     <GEN_APPL>WEBSERVICES</GEN_APPL>
+     <X-ML_NSPCE>http://tempuri.org/</X-ML_NSPCE>
+     <X-ML_NAME>GetQueryJSONResponse</X-ML_NAME>
+    </item>
+   </PROXY_HEADER>
+   <PROXY_DATA>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZCGQRY_IARAS_CARGO_INTEGRATIO5</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>GET_QUERY_JSONRESULT</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>GET_QUERY_JSONRESULT</OBJ_NAME2>
+     <ID>&lt;element&gt; {http://tempuri.org/}GetQueryJSONResult &lt;message&gt; IArasCargoIntegrationService_GetQueryJSON_OutputMessage http://tempuri.org/ http://tempuri.org/</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>GetQueryJSONResult</IFR_NAME>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_OPTNL>X</IFR_OPTNL>
+     <IFR_QUALIF>X</IFR_QUALIF>
+     <IFR_XSDTYP>string</IFR_XSDTYP>
+     <IFR_NILLABLE>X</IFR_NILLABLE>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>GET_QUERY_JSONRESULT</R3_NAME>
+     <R3_DATATYP>STRG</R3_DATATYP>
+     <R3_SEQNUM>000001</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZCGQRY_IARAS_CARGO_INTEGRATIO5</OBJ_NAME>
+     <OBJECT1>TABL</OBJECT1>
+     <OBJ_NAME1>ZCGQRY_IARAS_CARGO_INTEGRATIO5</OBJ_NAME1>
+     <OBJECT2>TABL</OBJECT2>
+     <OBJ_NAME2>ZCGQRY_IARAS_CARGO_INTEGRATIO5</OBJ_NAME2>
+     <ID>&lt;message&gt; IArasCargoIntegrationService_GetQueryJSON_OutputMessage http://tempuri.org/ http://tempuri.org/</ID>
+     <IFR_TYPE>message</IFR_TYPE>
+     <IFR_NAME>IArasCargoIntegrationService_GetQueryJSON_OutputMessage</IFR_NAME>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>TABL</R3_TYPE>
+     <R3_NAME>ZCGQRY_IARAS_CARGO_INTEGRATIO5</R3_NAME>
+     <R3_TEXT>Proxy Structure (Generated)</R3_TEXT>
+     <CATEGORY>ifmmessage</CATEGORY>
+    </item>
+   </PROXY_DATA>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZMM_E_TAKIP_URL</ROLLNAME>
+    <HEADLEN>18</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>18</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DTELMASTER>T</DTELMASTER>
+    <DATATYPE>CHAR</DATATYPE>
+    <LENG>000500</LENG>
+    <OUTPUTLEN>000500</OUTPUTLEN>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>T</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>T</DDLANGUAGE>
+     <DDTEXT>Kargo Takip Adresi</DDTEXT>
+     <REPTEXT>Kargo Takip Adresi</REPTEXT>
+     <SCRTEXT_S>KTakipAdrs</SCRTEXT_S>
+     <SCRTEXT_M>Kargo Takip Adresi</SCRTEXT_M>
+     <SCRTEXT_L>Kargo Takip Adresi</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

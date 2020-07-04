@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SPRX" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROXY_HEADER>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZYKSHIPPING_ORDER_DISPATCHER12</OBJ_NAME>
+     <OBJECT_M>TABL</OBJECT_M>
+     <OBJ_NAME_M>ZYKSHIPPING_ORDER_DISPATCHER12</OBJ_NAME_M>
+     <HASH_ID>C6500A954EF340AF8E8A9413914AE99BF08A6093</HASH_ID>
+     <ID>&lt;message&gt; ShippingOrderDispatcherServices_cancelReturnShipmentCodeResponse http://yurticikargo.com.tr/ShippingOrderDispatcherServices http://yurticikargo.com.tr/ShippingOrderDispatcherServices</ID>
+     <IFR_GLOBAL>X</IFR_GLOBAL>
+     <IFR_TYPE>message</IFR_TYPE>
+     <IFR_NAME>ShippingOrderDispatcherServices_cancelReturnShipmentCodeResponse</IFR_NAME>
+     <IFR_NSPCE>http://yurticikargo.com.tr/ShippingOrderDispatcherServices</IFR_NSPCE>
+     <IFR_GNSPCE>http://yurticikargo.com.tr/ShippingOrderDispatcherServices</IFR_GNSPCE>
+     <GEN_VERS>0006</GEN_VERS>
+     <PREFIX>ZYK</PREFIX>
+     <CATEGORY>ifmmessage</CATEGORY>
+     <GEN_APPL>WEBSERVICES</GEN_APPL>
+     <X-ML_NSPCE>http://yurticikargo.com.tr/ShippingOrderDispatcherServices</X-ML_NSPCE>
+     <X-ML_NAME>cancelReturnShipmentCodeResponse</X-ML_NAME>
+    </item>
+   </PROXY_HEADER>
+   <PROXY_DATA>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZYKSHIPPING_ORDER_DISPATCHER12</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>CANCEL_RETURN_SHIPMENT_CODE_RE</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>CANCEL_RETURN_SHIPMENT_CODE_RE</OBJ_NAME2>
+     <OBJECT_R>TABL</OBJECT_R>
+     <OBJ_NAME_R>ZYKCANCEL_RETURN_SHIPMENT_CODE</OBJ_NAME_R>
+     <ID>&lt;part&gt; cancelReturnShipmentCodeResponse &lt;message&gt; ShippingOrderDispatcherServices_cancelReturnShipmentCodeResponse http://yurticikargo.com.tr/ShippingOrderDispatcherServices http://yurticikargo.com.tr/ShippingOrderDispatcherServices</ID>
+     <IFR_TYPE>part</IFR_TYPE>
+     <IFR_NAME>cancelReturnShipmentCodeResponse</IFR_NAME>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>CANCEL_RETURN_SHIPMENT_CODE_RE</R3_NAME>
+     <R3_SEQNUM>000001</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZYKSHIPPING_ORDER_DISPATCHER12</OBJ_NAME>
+     <OBJECT1>TABL</OBJECT1>
+     <OBJ_NAME1>ZYKSHIPPING_ORDER_DISPATCHER12</OBJ_NAME1>
+     <OBJECT2>TABL</OBJECT2>
+     <OBJ_NAME2>ZYKSHIPPING_ORDER_DISPATCHER12</OBJ_NAME2>
+     <ID>&lt;message&gt; ShippingOrderDispatcherServices_cancelReturnShipmentCodeResponse http://yurticikargo.com.tr/ShippingOrderDispatcherServices http://yurticikargo.com.tr/ShippingOrderDispatcherServices</ID>
+     <IFR_TYPE>message</IFR_TYPE>
+     <IFR_NAME>ShippingOrderDispatcherServices_cancelReturnShipmentCodeResponse</IFR_NAME>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>TABL</R3_TYPE>
+     <R3_NAME>ZYKSHIPPING_ORDER_DISPATCHER12</R3_NAME>
+     <R3_TEXT>Proxy Structure (Generated)</R3_TEXT>
+     <CATEGORY>ifmmessage</CATEGORY>
+    </item>
+   </PROXY_DATA>
+  </asx:values>
+ </asx:abap>
+</abapGit>

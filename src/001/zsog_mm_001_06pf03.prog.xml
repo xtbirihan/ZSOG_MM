@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_PROG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROGDIR>
+    <NAME>ZSOG_MM_001_06PF03</NAME>
+    <SQLX>X</SQLX>
+    <SUBC>I</SUBC>
+    <APPL>M</APPL>
+    <RSTAT>P</RSTAT>
+    <RLOAD>D</RLOAD>
+   </PROGDIR>
+   <TPOOL>
+    <item>
+     <ID>R</ID>
+     <ENTRY>Purchasing Print Program: Auxiliary Routines</ENTRY>
+     <LENGTH>44</LENGTH>
+    </item>
+   </TPOOL>
+   <I18N_TPOOL>
+    <item>
+     <LANGUAGE>D</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Druckprogramm Einkauf: Hilfsroutinen</ENTRY>
+       <LENGTH>36</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>T</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>R</ID>
+       <ENTRY>SA yazdırma programı: Yardım rutinleri</ENTRY>
+       <LENGTH>38</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+   </I18N_TPOOL>
+  </asx:values>
+ </asx:abap>
+</abapGit>

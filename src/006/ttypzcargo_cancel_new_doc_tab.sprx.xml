@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SPRX" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROXY_HEADER>
+    <item>
+     <OBJECT>TTYP</OBJECT>
+     <OBJ_NAME>ZCARGO_CANCEL_NEW_DOC_TAB</OBJ_NAME>
+     <OBJECT_M>TTYP</OBJECT_M>
+     <OBJ_NAME_M>ZCARGO_CANCEL_NEW_DOC_TAB</OBJ_NAME_M>
+     <HASH_ID>7A919C7E13959D70AD483A1F8B8B0B9541D627C3</HASH_ID>
+     <ID>TableOf&lt;type&gt; CancelNewDoc http://tempuri.org/ http://tempuri.org/</ID>
+     <IFR_GLOBAL>X</IFR_GLOBAL>
+     <IFR_TYPE>TableOftype</IFR_TYPE>
+     <IFR_NAME>CancelNewDoc</IFR_NAME>
+     <IFR_NSPCE>http://tempuri.org/</IFR_NSPCE>
+     <IFR_GNSPCE>http://tempuri.org/</IFR_GNSPCE>
+     <GEN_VERS>0005</GEN_VERS>
+     <PREFIX>ZCARGO_</PREFIX>
+     <CATEGORY>ifmtypedef</CATEGORY>
+     <GEN_APPL>WEBSERVICES</GEN_APPL>
+    </item>
+   </PROXY_HEADER>
+   <PROXY_DATA>
+    <item>
+     <OBJECT>TTYP</OBJECT>
+     <OBJ_NAME>ZCARGO_CANCEL_NEW_DOC_TAB</OBJ_NAME>
+     <OBJECT1>TTYP</OBJECT1>
+     <OBJ_NAME1>ZCARGO_CANCEL_NEW_DOC_TAB</OBJ_NAME1>
+     <OBJECT2>TTYP</OBJECT2>
+     <OBJ_NAME2>ZCARGO_CANCEL_NEW_DOC_TAB</OBJ_NAME2>
+     <OBJECT_R>TABL</OBJECT_R>
+     <OBJ_NAME_R>ZCARGO_CANCEL_NEW_DOC</OBJ_NAME_R>
+     <ID>TableOf&lt;type&gt; CancelNewDoc http://tempuri.org/ http://tempuri.org/</ID>
+     <IFR_TYPE>TableOftype</IFR_TYPE>
+     <IFR_NAME>CancelNewDoc</IFR_NAME>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>TTYP</R3_TYPE>
+     <R3_NAME>ZCARGO_CANCEL_NEW_DOC_TAB</R3_NAME>
+     <R3_TEXT>Proxy Table Type (Generated)</R3_TEXT>
+     <CATEGORY>ifmtypedef</CATEGORY>
+    </item>
+   </PROXY_DATA>
+  </asx:values>
+ </asx:abap>
+</abapGit>

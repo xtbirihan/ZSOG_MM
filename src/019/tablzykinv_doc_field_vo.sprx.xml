@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SPRX" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROXY_HEADER>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZYKINV_DOC_FIELD_VO</OBJ_NAME>
+     <OBJECT_M>TABL</OBJECT_M>
+     <OBJ_NAME_M>ZYKINV_DOC_FIELD_VO</OBJ_NAME_M>
+     <HASH_ID>A15861B7FCF38D1C7030A1F6791EB484275BC7C7</HASH_ID>
+     <ID>&lt;type&gt; InvDocFieldVO http://yurticikargo.com.tr/ShippingOrderDispatcherServices http://yurticikargo.com.tr/ShippingOrderDispatcherServices</ID>
+     <IFR_GLOBAL>X</IFR_GLOBAL>
+     <IFR_TYPE>type</IFR_TYPE>
+     <IFR_NAME>InvDocFieldVO</IFR_NAME>
+     <IFR_NSPCE>http://yurticikargo.com.tr/ShippingOrderDispatcherServices</IFR_NSPCE>
+     <IFR_GNSPCE>http://yurticikargo.com.tr/ShippingOrderDispatcherServices</IFR_GNSPCE>
+     <GEN_VERS>0005</GEN_VERS>
+     <PREFIX>ZYK</PREFIX>
+     <CATEGORY>ifmtypedef</CATEGORY>
+     <GEN_APPL>WEBSERVICES</GEN_APPL>
+     <X-ML_NSPCE>http://yurticikargo.com.tr/ShippingOrderDispatcherServices</X-ML_NSPCE>
+     <X-ML_NAME>InvDocFieldVO</X-ML_NAME>
+    </item>
+   </PROXY_HEADER>
+   <PROXY_DATA>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZYKINV_DOC_FIELD_VO</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>DOC_ID</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>DOC_ID</OBJ_NAME2>
+     <ID>&lt;element&gt; docId &lt;type&gt; InvDocFieldVO http://yurticikargo.com.tr/ShippingOrderDispatcherServices http://yurticikargo.com.tr/ShippingOrderDispatcherServices</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>docId</IFR_NAME>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_OPTNL>X</IFR_OPTNL>
+     <IFR_XSDTYP>string</IFR_XSDTYP>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>DOC_ID</R3_NAME>
+     <R3_DATATYP>STRG</R3_DATATYP>
+     <R3_SEQNUM>000001</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZYKINV_DOC_FIELD_VO</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>FIELD_NAME</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>FIELD_NAME</OBJ_NAME2>
+     <ID>&lt;element&gt; fieldName &lt;type&gt; InvDocFieldVO http://yurticikargo.com.tr/ShippingOrderDispatcherServices http://yurticikargo.com.tr/ShippingOrderDispatcherServices</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>fieldName</IFR_NAME>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_OPTNL>X</IFR_OPTNL>
+     <IFR_XSDTYP>string</IFR_XSDTYP>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>FIELD_NAME</R3_NAME>
+     <R3_DATATYP>STRG</R3_DATATYP>
+     <R3_SEQNUM>000002</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZYKINV_DOC_FIELD_VO</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>FIELD_NAME_EXPLANATION</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>FIELD_NAME_EXPLANATION</OBJ_NAME2>
+     <ID>&lt;element&gt; fieldNameExplanation &lt;type&gt; InvDocFieldVO http://yurticikargo.com.tr/ShippingOrderDispatcherServices http://yurticikargo.com.tr/ShippingOrderDispatcherServices</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>fieldNameExplanation</IFR_NAME>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_OPTNL>X</IFR_OPTNL>
+     <IFR_XSDTYP>string</IFR_XSDTYP>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>FIELD_NAME_EXPLANATION</R3_NAME>
+     <R3_DATATYP>STRG</R3_DATATYP>
+     <R3_SEQNUM>000003</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZYKINV_DOC_FIELD_VO</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>FIELD_VALUE</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>FIELD_VALUE</OBJ_NAME2>
+     <ID>&lt;element&gt; fieldValue &lt;type&gt; InvDocFieldVO http://yurticikargo.com.tr/ShippingOrderDispatcherServices http://yurticikargo.com.tr/ShippingOrderDispatcherServices</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>fieldValue</IFR_NAME>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_OPTNL>X</IFR_OPTNL>
+     <IFR_XSDTYP>string</IFR_XSDTYP>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>FIELD_VALUE</R3_NAME>
+     <R3_DATATYP>STRG</R3_DATATYP>
+     <R3_SEQNUM>000004</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZYKINV_DOC_FIELD_VO</OBJ_NAME>
+     <OBJECT1>TABL</OBJECT1>
+     <OBJ_NAME1>ZYKINV_DOC_FIELD_VO</OBJ_NAME1>
+     <OBJECT2>TABL</OBJECT2>
+     <OBJ_NAME2>ZYKINV_DOC_FIELD_VO</OBJ_NAME2>
+     <ID>&lt;type&gt; InvDocFieldVO http://yurticikargo.com.tr/ShippingOrderDispatcherServices http://yurticikargo.com.tr/ShippingOrderDispatcherServices</ID>
+     <IFR_TYPE>type</IFR_TYPE>
+     <IFR_NAME>InvDocFieldVO</IFR_NAME>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>TABL</R3_TYPE>
+     <R3_NAME>ZYKINV_DOC_FIELD_VO</R3_NAME>
+     <R3_TEXT>Proxy Structure (Generated)</R3_TEXT>
+     <CATEGORY>ifmtypedef</CATEGORY>
+    </item>
+   </PROXY_DATA>
+  </asx:values>
+ </asx:abap>
+</abapGit>

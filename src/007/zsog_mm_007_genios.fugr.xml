@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <INCLUDES>
+    <SOBJ_NAME>LZSOG_MM_007_GENIOSTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZSOG_MM_007_GENIOS</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZSOG_MM_007_GENIOS</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_OBJECTIVE_RIGHTHANDSIDE</PARAMETER>
+       <TYP>GENIOS_FLOAT</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ES_RETURN</PARAMETER>
+       <TYP>ZSOG_MM_007_GENIOS_RETURN</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_OBJECTIVE_RIGHTHANDSIDE</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ES_RETURN</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

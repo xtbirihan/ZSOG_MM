@@ -1,0 +1,335 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DOMA" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD01V>
+    <DOMNAME>ZZCHAR10</DOMNAME>
+    <DATATYPE>CHAR</DATATYPE>
+    <LENG>000010</LENG>
+    <OUTPUTLEN>000010</OUTPUTLEN>
+    <VALEXI>X</VALEXI>
+   </DD01V>
+   <DD07V_TAB>
+    <DD07V>
+     <DOMNAME>ZZCHAR10</DOMNAME>
+     <VALPOS>0001</VALPOS>
+     <DOMVALUE_L>0</DOMVALUE_L>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZZCHAR10</DOMNAME>
+     <VALPOS>0002</VALPOS>
+     <DOMVALUE_L>935</DOMVALUE_L>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZZCHAR10</DOMNAME>
+     <VALPOS>0003</VALPOS>
+     <DOMVALUE_L>936</DOMVALUE_L>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZZCHAR10</DOMNAME>
+     <VALPOS>0004</VALPOS>
+     <DOMVALUE_L>937</DOMVALUE_L>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZZCHAR10</DOMNAME>
+     <VALPOS>0005</VALPOS>
+     <DOMVALUE_L>938</DOMVALUE_L>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZZCHAR10</DOMNAME>
+     <VALPOS>0006</VALPOS>
+     <DOMVALUE_L>939</DOMVALUE_L>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZZCHAR10</DOMNAME>
+     <VALPOS>0007</VALPOS>
+     <DOMVALUE_L>940</DOMVALUE_L>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZZCHAR10</DOMNAME>
+     <VALPOS>0008</VALPOS>
+     <DOMVALUE_L>941</DOMVALUE_L>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZZCHAR10</DOMNAME>
+     <VALPOS>0009</VALPOS>
+     <DOMVALUE_L>942</DOMVALUE_L>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZZCHAR10</DOMNAME>
+     <VALPOS>0010</VALPOS>
+     <DOMVALUE_L>1000</DOMVALUE_L>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZZCHAR10</DOMNAME>
+     <VALPOS>0011</VALPOS>
+     <DOMVALUE_L>1001</DOMVALUE_L>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZZCHAR10</DOMNAME>
+     <VALPOS>0012</VALPOS>
+     <DOMVALUE_L>1002</DOMVALUE_L>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZZCHAR10</DOMNAME>
+     <VALPOS>0013</VALPOS>
+     <DOMVALUE_L>60020</DOMVALUE_L>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZZCHAR10</DOMNAME>
+     <VALPOS>0014</VALPOS>
+     <DOMVALUE_L>60021</DOMVALUE_L>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZZCHAR10</DOMNAME>
+     <VALPOS>0015</VALPOS>
+     <DOMVALUE_L>70018</DOMVALUE_L>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZZCHAR10</DOMNAME>
+     <VALPOS>0016</VALPOS>
+     <DOMVALUE_L>70019</DOMVALUE_L>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZZCHAR10</DOMNAME>
+     <VALPOS>0017</VALPOS>
+     <DOMVALUE_L>70020</DOMVALUE_L>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZZCHAR10</DOMNAME>
+     <VALPOS>0018</VALPOS>
+     <DOMVALUE_L>70021</DOMVALUE_L>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZZCHAR10</DOMNAME>
+     <VALPOS>0019</VALPOS>
+     <DOMVALUE_L>70022</DOMVALUE_L>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZZCHAR10</DOMNAME>
+     <VALPOS>0020</VALPOS>
+     <DOMVALUE_L>70023</DOMVALUE_L>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZZCHAR10</DOMNAME>
+     <VALPOS>0021</VALPOS>
+     <DOMVALUE_L>70024</DOMVALUE_L>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZZCHAR10</DOMNAME>
+     <VALPOS>0022</VALPOS>
+     <DOMVALUE_L>70025</DOMVALUE_L>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZZCHAR10</DOMNAME>
+     <VALPOS>0023</VALPOS>
+     <DOMVALUE_L>70026</DOMVALUE_L>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZZCHAR10</DOMNAME>
+     <VALPOS>0024</VALPOS>
+     <DOMVALUE_L>70027</DOMVALUE_L>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZZCHAR10</DOMNAME>
+     <VALPOS>0025</VALPOS>
+     <DOMVALUE_L>70028</DOMVALUE_L>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZZCHAR10</DOMNAME>
+     <VALPOS>0026</VALPOS>
+     <DOMVALUE_L>70029</DOMVALUE_L>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZZCHAR10</DOMNAME>
+     <VALPOS>0027</VALPOS>
+     <DOMVALUE_L>70030</DOMVALUE_L>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZZCHAR10</DOMNAME>
+     <VALPOS>0028</VALPOS>
+     <DOMVALUE_L>70031</DOMVALUE_L>
+    </DD07V>
+   </DD07V_TAB>
+   <I18N_LANGS>
+    <LANGU>T</LANGU>
+   </I18N_LANGS>
+   <DD01_TEXTS>
+    <item>
+     <DDLANGUAGE>T</DDLANGUAGE>
+     <DDTEXT>Result Code</DDTEXT>
+    </item>
+   </DD01_TEXTS>
+   <DD07_TEXTS>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>T</DDLANGUAGE>
+     <DOMVALUE_L>0</DOMVALUE_L>
+     <DDTEXT>Başarılı</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>T</DDLANGUAGE>
+     <DOMVALUE_L>935</DOMVALUE_L>
+     <DDTEXT>ReceiverPhone1 alanı zorunlu alandır</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>T</DDLANGUAGE>
+     <DOMVALUE_L>936</DOMVALUE_L>
+     <DDTEXT>Güncelleme hatası</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>T</DDLANGUAGE>
+     <DOMVALUE_L>937</DOMVALUE_L>
+     <DDTEXT>Sipariş Numarasını Girmeniz Gerekmektedir</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>T</DDLANGUAGE>
+     <DOMVALUE_L>938</DOMVALUE_L>
+     <DDTEXT>Alıcı Adresini Girmeniz Gerekmektedir</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>T</DDLANGUAGE>
+     <DOMVALUE_L>939</DOMVALUE_L>
+     <DDTEXT>Alıcı Adını Girmeniz Gerekmektedir</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0007</VALPOS>
+     <DDLANGUAGE>T</DDLANGUAGE>
+     <DOMVALUE_L>940</DOMVALUE_L>
+     <DDTEXT>Şehir Adını Girmeniz Gerekmektedir</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0008</VALPOS>
+     <DDLANGUAGE>T</DDLANGUAGE>
+     <DOMVALUE_L>941</DOMVALUE_L>
+     <DDTEXT>İlçe Adını Girmeniz Gerekmektedir</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0009</VALPOS>
+     <DDLANGUAGE>T</DDLANGUAGE>
+     <DOMVALUE_L>942</DOMVALUE_L>
+     <DDTEXT>Alıcı Ödemeli Tahsilatlı Kargo Gönderisi Yapılamamaktadır</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0010</VALPOS>
+     <DDLANGUAGE>T</DDLANGUAGE>
+     <DOMVALUE_L>1000</DOMVALUE_L>
+     <DDTEXT>Kullanıcı Adı ve Şifreniz Yanlıştır</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0011</VALPOS>
+     <DDLANGUAGE>T</DDLANGUAGE>
+     <DOMVALUE_L>1001</DOMVALUE_L>
+     <DDTEXT>Entegrasyon bilgileriniz güncellenirken bir hata oluşmuştur.</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0012</VALPOS>
+     <DDLANGUAGE>T</DDLANGUAGE>
+     <DOMVALUE_L>1002</DOMVALUE_L>
+     <DDTEXT>Aras Şube Bilginiz Tanımlı Değildir. Müşteri Temsilcinizle g</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0013</VALPOS>
+     <DDLANGUAGE>T</DDLANGUAGE>
+     <DOMVALUE_L>60020</DOMVALUE_L>
+     <DDTEXT>…….Sipariş Numaralı gönderinin irsaliyesi kesildiği için bil</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0014</VALPOS>
+     <DDLANGUAGE>T</DDLANGUAGE>
+     <DOMVALUE_L>60021</DOMVALUE_L>
+     <DDTEXT>En az bir adet sipariş bilgisi göndermeniz gerekmektedir</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0015</VALPOS>
+     <DDLANGUAGE>T</DDLANGUAGE>
+     <DOMVALUE_L>70018</DOMVALUE_L>
+     <DDTEXT>ReceiverAddress alanı en fazla 250 karakter olabilir</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0016</VALPOS>
+     <DDLANGUAGE>T</DDLANGUAGE>
+     <DOMVALUE_L>70019</DOMVALUE_L>
+     <DDTEXT>InvoiceKey alanı en fazla 20 karakter olabilir</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0017</VALPOS>
+     <DDLANGUAGE>T</DDLANGUAGE>
+     <DOMVALUE_L>70020</DOMVALUE_L>
+     <DDTEXT>Toplam parça sayısı ile gönderilen parça sayısı eşit değil</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0018</VALPOS>
+     <DDLANGUAGE>T</DDLANGUAGE>
+     <DOMVALUE_L>70021</DOMVALUE_L>
+     <DDTEXT>Toplam parça sayısını göndermeniz gerekmektedir</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0019</VALPOS>
+     <DDLANGUAGE>T</DDLANGUAGE>
+     <DOMVALUE_L>70022</DOMVALUE_L>
+     <DDTEXT>Sipariş Numaralı gönderinin parça bilgilerinde barcode bilgi</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0020</VALPOS>
+     <DDLANGUAGE>T</DDLANGUAGE>
+     <DOMVALUE_L>70023</DOMVALUE_L>
+     <DDTEXT>Sipariş Numaralı gönderinin volume bilgisi eksik</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0021</VALPOS>
+     <DDLANGUAGE>T</DDLANGUAGE>
+     <DOMVALUE_L>70024</DOMVALUE_L>
+     <DDTEXT>Sipariş Numaralı gönderinin Kg bilgisi eksik</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0022</VALPOS>
+     <DDLANGUAGE>T</DDLANGUAGE>
+     <DOMVALUE_L>70025</DOMVALUE_L>
+     <DDTEXT>Bir dosya gönderisi bir parçadan oluşmalıdır</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0023</VALPOS>
+     <DDLANGUAGE>T</DDLANGUAGE>
+     <DOMVALUE_L>70026</DOMVALUE_L>
+     <DDTEXT>Volume değeri decimal bir alan olmalıdır</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0024</VALPOS>
+     <DDLANGUAGE>T</DDLANGUAGE>
+     <DOMVALUE_L>70027</DOMVALUE_L>
+     <DDTEXT>Bu barkod daha önce gönderilmiş</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0025</VALPOS>
+     <DDLANGUAGE>T</DDLANGUAGE>
+     <DOMVALUE_L>70028</DOMVALUE_L>
+     <DDTEXT>Kg değeri decimal bir alan olmalıdır</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0026</VALPOS>
+     <DDLANGUAGE>T</DDLANGUAGE>
+     <DOMVALUE_L>70029</DOMVALUE_L>
+     <DDTEXT>irsaliyesi kesilmiş gönderinin bilgilerini güncelleyemezsini</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0027</VALPOS>
+     <DDLANGUAGE>T</DDLANGUAGE>
+     <DOMVALUE_L>70030</DOMVALUE_L>
+     <DDTEXT>Parçaların barkod numaraları aynı olamaz</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0028</VALPOS>
+     <DDLANGUAGE>T</DDLANGUAGE>
+     <DOMVALUE_L>70031</DOMVALUE_L>
+     <DDTEXT>…….  numaralı kargo işleme tabii tutulmuştur!</DDTEXT>
+    </item>
+   </DD07_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
